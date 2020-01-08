@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>菜單-丼飯</title>
+        <link href="css/menu.css" rel=stylesheet>
+        <script src="js/jQuery.js"></script>
+        <script src="js/menu.js"></script>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <body>
+        <!--hamberger menu-->
+        <div class="hamberger">
+            <div class="line top"></div>
+            <div class="line center"></div>
+            <div class="line bottom"></div>
+          </div>
+  
+        <!--drop down nav bar -->
+        <div class="menu">
+            <ul id="accordion" class="accordion">
+                <li>
+                  <div class="link"> <a href="home.html"><p class="menu-item-p">首頁</p></a></div>
+                 
+                </li>
+                <li>
+                  <div class="link"></i><a href="introduction.html"><p class="menu-item-p">介紹</p></a></div>
+                 
+                </li>
+                <li class="list-active">
+                  <div class="link"></i> <a href="#"><p class="menu-item-p"> 菜單</p> </a>
+                    <img src="img/icon_arrow_down.png" alt="" class="fa fa-chevron-down"></div>
+                  <ul class="submenu">
+                    <li >
+                        <a href="menu-ramen.html"><p class="sub-menu-item-p">拉麵</p></a>
+                    </li>
+                    <li class="sub-list-active">
+                        <a href="menu-donburimono.html"><p class="sub-menu-item-p">丼飯</p></a>
+                    </li>
+                    <li>
+                        <a href="menu-teishoku.html"><p class="sub-menu-item-p">定食</p></a>
+                    </li>
+                    <li>
+                       <a href="menu-udon.html"><p class="sub-menu-item-p"> 烏龍麵</p></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="link"> <a href="contact.html"><p class="menu-item-p"> 聯絡我們</p></a></div>
+                
+                </li>
+              </ul>
+        </div>
+        
+        <nav>
+            <ul class="main-list">
+                <li>
+                    <a href="home.html"><p class="main-list-p">首頁</p></a>
+                </li>  
+                <li>
+                    <a href="introduction.html"><p class="main-list-p">介紹</p></a>
+                </li>
+                <li id="active">
+                   <a href="menu-ramen.html"><p class="main-list-p"> 菜單</p> </a>
+                    <ul class="sub-list">
+                        <li>
+                            <a href="menu-ramen.html"><p class="sub-list-p ">拉麵</p></a>
+                        </li>
+                        <li id="sub-active">
+                            <a href="menu-donburimono.html"><p class="sub-list-p">丼飯</p></a>
+                        </li>
+                        <li>
+                            <a href="menu-teishoku.html"><p class="sub-list-p">定食</p></a>
+                        </li>
+                        <li>
+                           <a href="menu-udon.html"><p class="sub-list-p"> 烏龍麵</p></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                   <a href="contact.html"><p class="main-list-p"> 聯絡我們</p></a>
+                </li>
+            </ul>
+        </nav>
+
+        <img src="img/img_menu-top.png" alt="" class="top-img" >
+        <div class="container">
+            <aside>
+                <ul class="menu-list">
+                    <div>
+                        <li class="menu-li ">
+                            <a href="menu-ramen.html"><p class="vertical">拉麵</p></a>
+                        </li>
+                        <img src="img/img_lantern1.png" alt="" class="menu-li-img2">
+                        <img src="img/img_lantern2.png" alt="" class="menu-li-img2-2">
+                    </div>
+                    <div>
+                        <li class="menu-li">
+                            <a href="menu-donburimono.html"><p class="vertical">丼飯</p></a>
+                        </li>
+                        <img src="img/img_lantern2.png" alt="" class="menu-li-img1">
+                    </div>
+                    <div>
+                        <li class="menu-li">
+                            <a href="menu-teishoku.html"><p class="vertical">定食</p></a>
+                        </li >
+                        <img src="img/img_lantern1.png" alt="" class="menu-li-img2">
+                        <img src="img/img_lantern2.png" alt="" class="menu-li-img2-2">
+                  
+                    </div>
+                    <div>
+                        <li class="menu-li">
+                            <a href="menu-udon.html"><p class="vertical2"> 烏龍麵</p></a>
+                         </li>
+                        <img src="img/img_lantern3.png" alt="" class="menu-li-img3">
+                        <img src="img/img_lantern4.png" alt="" class="menu-li-img3-2">
+                     
+                    </div>
+                  </ul>
+                <ul class="S-menu-list">
+                    <div>
+                        <li class="menu-li ">
+                            <a href="menu-ramen.html"><p class="vertical">拉麵</p></a>
+                        </li>
+                        <img src="img/img_lantern3.png" alt="" class="menu-li-img3">
+                        <img src="img/img_lantern4.png" alt="" class="menu-li-img3-2">
+                    </div>
+                    <div>
+                        <li class="menu-li">
+                            <a href="menu-donburimono.html"><p class="vertical">丼飯</p></a>
+                        </li>
+                        <img src="img/img_lantern4.png" alt="" class="menu-li-img1">
+                    </div>
+                    <div>
+                        <li class="menu-li">
+                            <a href="menu-teishoku.html"><p class="vertical">定食</p></a>
+                        </li class="menu-li">
+                        <img src="img/img_lantern3.png" alt="" class="menu-li-img3">
+                        <img src="img/img_lantern4.png" alt="" class="menu-li-img3-2">
+                  
+                    </div>
+                    <div>
+                        <li class="menu-li">
+                            <a href="menu-udon.html"><p class="vertical2"> 烏龍麵</p></a>
+                         </li class="menu-li">
+                        <img src="img/img_lantern3.png" alt="" class="menu-li-img3">
+                        <img src="img/img_lantern4.png" alt="" class="menu-li-img3-2">
+                     
+                    </div>
+                  </ul>
+            </aside>
+            <div class="fox-block">
+                <img src="img/img_fox1.png" alt="" class="fox1">
+                 <img src="img/img_fox2.png" alt="" class="fox2">
+            </div>
+            <div class="M-fox-block">
+                <img src="img/M-img_fox1.png" alt="" class="fox1">
+                <img src="img/M-img_fox2.png" alt="" class="fox2">
+            </div>
+            <main>
+                <div class="foodbox">
+                    <ul class="img-list" >
+                        <section class=img-list-section>
+                            <li class="img-list-item" id="img-list1">
+                               <img src="img/img_天丼.png" />
+                                <p class="title">天丼<br>140元</p>
+                            </li>
+                            <li class="img-list-item" id="img-list2">
+                                <img src="img/img_牛丼.png"/>
+                                <p class="title">牛丼<br>160元</p>
+                                
+                                
+                            </li>
+                        </section>
+                        <section class=img-list-section>
+                            <li  class="img-list-item" id="img-list3">
+                                <img src="img/img_炸豬排丼.png"/>
+                                <p class="title">炸豬排丼<br>180元</p>
+                                
+                               
+                            </li >
+                            <li class="img-list-item" id="img-list4">
+                                <img src="img/img_海鮮丼.png"/>
+                                <p class="title">海鮮丼<br>260元</p>
+                            </li>
+                        </section>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="info-block1">
+                    <div class="info-item">
+                        <img src="img/img_天丼.png" alt="">
+                        <div class="info-content">
+                            <h3>天丼</h3>
+                            <h3>140元</h3>
+                            <p>蝦子肉質緊實又軟Q彈牙味道鮮美，外表麵衣是以日本進口炸粉製作再以嚴選芥花油酥炸，酥脆爽口。獨門天婦羅醬汁是以特選鰹魚片熬煮，味道鹹甜又濃厚。</p>
+                            
+                        </div>
+                        <div class="back-button" id="back-button1">
+                            <img src="img/btn_back-button.png" alt="">
+                            <p>back</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="info-block2">
+                    <div class="info-item">
+                        <img src="img/img_牛丼.png" alt="">
+                        <div class="info-content">
+                            <h3>牛丼</h3>
+                            <h3>160元</h3>
+                            <p>Q彈的白米飯上鋪著滿滿軟嫩薄片牛肉及入味洋蔥，上頭加了顆銷魂半生熟溫泉蛋，只要輕輕一碰裏頭的黃澄澄蛋液就傾瀉而出，讓人欲罷不能。</p>
+                            
+                        </div>
+                        <div class="back-button" id="back-button2">
+                            <img src="img/btn_back-button.png" alt="">
+                            <p>back</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="info-block3">
+                    <div class="info-item">
+                        <img src="img/img_炸豬排丼.png" alt="">
+                        <div class="info-content">
+                            <h3>炸豬排丼</h3>
+                            <h3>180元</h3>
+                            <p>超厚豬排裹上麵包粉的外皮又薄又酥，吃起來濕潤又扎實。蛋液將配料與白飯完美混和在一起，洋蔥使每口咀嚼都能吃出香甜，完美搭配。</p>
+                            
+                        </div>
+                        <div  class="back-button" id="back-button3">
+                            <img src="img/btn_back-button.png" alt="">
+                            <p>back</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="info-block4">
+                    <div class="info-item">
+                        <img src="img/img_海鮮丼.png" alt="">
+                        <div class="info-content">
+                            <h3>海鮮丼</h3>
+                            <h3>260元</h3>
+                            <p>嚴選整條鮪魚，再搭配肉質清甜緊緻的紅蝦、口感彈牙清爽的松貝、肉質細緻爽脆的海螺、咬勁Q彈的魷魚、外觀晶瑩剔透的鮭魚卵，以及脆彈結實的鯡魚卵，可謂丼飯界的深海璀璨珠寶盒。</p>
+                            
+                        </div>
+                        <div class="back-button"  id="back-button4">
+                            <img src="img/btn_back-button.png" alt="">
+                            <p>back</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="S-foodbox">
+                    <div class="S-img-list-item" id="S-img-list1">
+                        <img src="img/img_天丼.png" />
+                       
+                    </div>
+                     <div class="S-info-block"  id="S-info-block1">
+                       <div class="S-info-item">
+                           
+                            <div class="S-info-content">
+                                <h3>天丼</h3>
+                                <h3>140元</h3>
+                                <p>蝦子肉質緊實又軟Q彈牙味道鮮美，外表麵衣是以日本進口炸粉製作再以嚴選芥花油酥炸，酥脆爽口。獨門天婦羅醬汁是以特選鰹魚片熬煮，味道鹹甜又濃厚。</p>
+                            </div>
+                                <div class="S-back-button" id="S-back-button1">
+                                <img src="img/btn_back-button.png" alt="">
+                                <p>back</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="S-img-list-item" id="S-img-list2">
+                        <img src="img/img_牛丼.png"/>
+                       
+                    </div>
+                    <div class="S-info-block"  id="S-info-block2">
+                        <div class="S-info-item">
+                           
+                            <div class="S-info-content">
+                                <h3>牛丼</h3>
+                                <h3>160元</h3>
+                                <p>Q彈的白米飯上鋪著滿滿軟嫩薄片牛肉及入味洋蔥，上頭加了顆銷魂半生熟溫泉蛋，只要輕輕一碰裏頭的黃澄澄蛋液就傾瀉而出，讓人欲罷不能。</p>
+                                
+                            </div>
+                            <div class="S-back-button" id="S-back-button2">
+                                <img src="img/btn_back-button.png" alt="">
+                                <p>back</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="S-img-list-item" id="S-img-list3">
+                        <img src="img/img_炸豬排丼.png"/>
+                              
+                    </div>
+                    <div class="S-info-block"  id="S-info-block3">
+                        <div class="S-info-item">
+                           
+                            <div class="S-info-content">
+                                <h3>炸豬排丼</h3>
+                                <h3>180元</h3>
+                                <p>超厚豬排裹上麵包粉的外皮又薄又酥，吃起來濕潤又扎實。蛋液將配料與白飯完美混和在一起，洋蔥使每口咀嚼都能吃出香甜，完美搭配。</p>
+                                
+                            </div>
+                            <div  class="S-back-button" id="S-back-button3">
+                                <img src="img/btn_back-button.png" alt="">
+                                <p>back</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="S-img-list-item" id="S-img-list4">
+                        <img src="img/img_海鮮丼.png"/>
+                        
+                    </div>
+                    <div class="S-info-block"  id="S-info-block4">
+                    <div class="S-info-item">
+                      
+                        <div class="S-info-content">
+                            <h3>海鮮丼</h3>
+                            <h3>260元</h3>
+                            <p>嚴選整條鮪魚，再搭配肉質清甜緊緻的紅蝦、口感彈牙清爽的松貝、肉質細緻爽脆的海螺、咬勁Q彈的魷魚、外觀晶瑩剔透的鮭魚卵，以及脆彈結實的鯡魚卵，可謂丼飯界的深海璀璨珠寶盒。</p>
+                            
+                        </div>
+                        <div class="S-back-button"  id="S-back-button4">
+                            <img src="img/btn_back-button.png" alt="">
+                            <p>back</p>
+                        </div>
+                    </div>
+                </div>       
+                </div>
+            </main>
+            <footer>
+                <div class="computer">
+                <p class="footertext1">〒10671台北市大安區和平東路2段134號 | (02)-9999-9999 | 每週三、國定假日公休</p>
+                <p class="footertext2">Copyright © KOKONOE All Rights Reserved</p>
+                </div>
+                <div class="ipad">
+                <p class="footertext1">〒10671台北市大安區和平東路2段134號<br><br>(02)-9999-9999<br><br>每週三、國定假日公休</p>
+                <p class="footertext2">Copyright © KOKONOE All Rights Reserved</p>
+                </div>
+                <div class="iphone">
+                    <p class="footertext1">〒10671台北市大安區和平東路2段134號<br><br>(02)-9999-9999<br><br>每週三、國定假日公休</p>
+                    <p class="footertext2">Copyright © KOKONOE All Rights Reserved</p>
+                </div>
+            </footer>
+        </div>
+       
+    </body>
+</html>

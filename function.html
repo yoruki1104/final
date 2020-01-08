@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta charset="utf-8">
+      <title>九重轉換頁</title>
+     <!--css-->
+      <link rel="stylesheet" type="text/css" href="css/trans.css">
+      <!--js-->
+      <script src="js/jQuery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/trans.js"> </script>
+    </head>
+
+<body> 
+   <!--hamberger menu-->
+   <div class="hamberger">
+    <div class="line top"></div>
+    <div class="line center"></div>
+    <div class="line bottom"></div>
+  </div>
+
+<!--drop down nav bar -->
+<div class="menu">
+    <ul id="accordion" class="accordion">
+        <li class="list-active">
+          <div class="link"> <a href="home.html"><p class="menu-item-p">home</p></a></div>
+         
+        </li>
+        <li>
+          <div class="link"></i><a href="introduction.html"><p class="menu-item-p">介紹</p></a></div>
+         
+        </li>
+        <li >
+          <div class="link"></i> <a href="#"><p class="menu-item-p"> 菜單</p> </a>
+            <img src="img/icon_arrow_down.png" alt="" class="fa fa-chevron-down"></div>
+          <ul class="submenu">
+            <li >
+                <a href="menu-ramen.html"><p class="sub-menu-item-p">拉麵</p></a>
+            </li>
+            <li>
+                <a href="menu-donburimono.html"><p class="sub-menu-item-p">丼飯</p></a>
+            </li>
+            <li>
+                <a href="menu-teishoku.html"><p class="sub-menu-item-p">定食</p></a>
+            </li>
+            <li>
+               <a href="menu-udon.html"><p class="sub-menu-item-p"> 烏龍麵</p></a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="link"> <a href="contact.html"><p class="menu-item-p"> 聯絡我們</p></a></div>
+        
+        </li>
+      </ul>
+</div>
+  
+  
+
+<nav>
+    <ul class="main-list">
+        <li>
+            <a href="home.html"><p class="main-list-p">首頁</p></a>
+        </li>  
+        <li>
+            <a href="introduction.html"><p class="main-list-p">介紹</p></a>
+        </li>
+        <li>
+           <a href="menu-ramen.html"><p class="main-list-p"> 菜單</p> </a>
+            <ul class="sub-list">
+                <li class="active">
+                    <a href="menu-ramen.html"><p class="sub-list-p ">拉麵</p></a>
+                </li>
+                <li>
+                    <a href="menu-donburimono.html"><p class="sub-list-p">丼飯</p></a>
+                </li>
+                <li>
+                    <a href="menu-teishoku.html"><p class="sub-list-p">定食</p></a>
+                </li>
+                <li>
+                   <a href="menu-udon.html"><p class="sub-list-p"> 烏龍麵</p></a>
+                </li>
+            </ul>
+        </li>
+        <li>
+           <a href="contact.html"><p class="main-list-p"> 聯絡我們</p></a>
+        </li>
+    </ul>
+</nav>
+    <p class="word_h1">道地的日式料理</p>
+    <p class="word-p">讓您的味蕾享受極致的奢華</p>
+   <div class="section"> 
+     <div class="block1"  onclick="javascript:location.href='introduction.html'" value="introduction.html">
+      <img src="img/icon_transPage-icon1.png">
+       <p class="word-1-p">介紹</p>
+     </div>
+     <div class="block2" onclick="javascript:location.href='menu-ramen.html'" value="menu-ramen.html">
+       <div class="icon-block2">
+        <img src="img/icon_transPage-icon2.png" class="ib2-1">
+        <img src="img/icon_transPage-icon2_hover.png" alt="" class="ib2-2">
+
+       </div>
+       <p class="word-2-p">菜單</p>
+     </div>
+     <div class="block3"onclick="javascript:location.href='contact.html'" value="contact.html">
+      <div class="icon-block3">
+        <img src="img/icon_transPage-icon3.png" class="ib3-1">
+        <img src="img/icon_transPage-icon3_hover.png" alt="" class="ib3-2">
+      </div>
+       <p class="word-3-p">聯絡我們</p>
+     </div>
+   </div>
+   <div class="box">
+   <p class="word-sh1">道地的日式料理</p>
+   <p class="word-sp">讓您的味蕾享受極致的奢華</p>
+   </div>
+   <div class="s-block1" onclick="javascript:location.href='introduction.html'" value="introduction.html">
+    <img src="img/icon_transPage-icon1.png" alt="">
+     <p class="s-word-1-p">介紹</p>
+   </div>
+   <div class="s-block2"onclick="javascript:location.href='menu-ramen.html'" value="menu-ramen.html">
+    <img src="img/icon_transPage-icon2.png">
+    <p class="s-word-2-p">菜單</p>
+   </div>
+   <div class="s-block3"onclick="javascript:location.href='contact.html'" value="contact.html">
+    <img src="img/icon_transPage-icon3.png">
+    <p class="s-word-3-p">聯絡我們</p>
+   </div>
+
+
+  
+  </body>
+</html>

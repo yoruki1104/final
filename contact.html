@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>聯絡我們</title>
+        <link href="css/contact.css" rel=stylesheet>
+        <script src="js/jQuery.js"></script>
+        <script src="js/contact.js"></script>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <body>
+      
+        <!--hamberger menu-->
+        <div class="hamberger">
+            <div class="line top"></div>
+            <div class="line center"></div>
+            <div class="line bottom"></div>
+          </div>
+  
+        <!--drop down nav bar -->
+        <div class="menu">
+            <ul id="accordion" class="accordion">
+                <li>
+                  <div class="link"> <a href="home.html"><p class="menu-item-p">首頁</p></a></div>
+                 
+                </li>
+                <li>
+                  <div class="link"></i><a href="introduction.html"><p class="menu-item-p">介紹</p></a></div>
+                 
+                </li>
+                <li >
+                  <div class="link"></i> <a href="#"><p class="menu-item-p"> 菜單</p> </a>
+                    <img src="img/icon_arrow_down.png" alt="" class="fa fa-chevron-down"></div>
+                  <ul class="submenu">
+                    <li >
+                        <a href="menu-ramen.html"><p class="sub-menu-item-p">拉麵</p></a>
+                    </li>
+                    <li>
+                        <a href="menu-donburimono.html"><p class="sub-menu-item-p">丼飯</p></a>
+                    </li>
+                    <li>
+                        <a href="menu-teishoku.html"><p class="sub-menu-item-p">定食</p></a>
+                    </li>
+                    <li>
+                       <a href="menu-udon.html"><p class="sub-menu-item-p"> 烏龍麵</p></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-active">
+                  <div class="link"> <a href="contact.html"><p class="menu-item-p"> 聯絡我們</p></a></div>
+                
+                </li>
+              </ul>
+        </div>
+        
+        <nav>
+            <ul class="main-list">
+                <li>
+                    <a href="home.html"><p class="main-list-p">首頁</p></a>
+                </li>  
+                <li>
+                    <a href="introduction.html"><p class="main-list-p">介紹</p></a>
+                </li>
+                <li class="active">
+                   <a href="menu-ramen.html"><p class="main-list-p"> 菜單</p> </a>
+                    <ul class="sub-list">
+                        <li >
+                            <a href="menu-ramen.html"><p class="sub-list-p ">拉麵</p></a>
+                        </li>
+                        <li>
+                            <a href="menu-donburimono.html"><p class="sub-list-p">丼飯</p></a>
+                        </li>
+                        <li>
+                            <a href="menu-teishoku.html"><p class="sub-list-p">定食</p></a>
+                        </li>
+                        <li>
+                           <a href="menu-udon.html"><p class="sub-list-p"> 烏龍麵</p></a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="active">
+                   <a href="contact.html"><p class="main-list-p"> 聯絡我們</p></a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="store">
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.3147075077964!2d121.54315591411275!3d25.023391844872567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1578061683967!5m2!1szh-TW!2stw" 
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="store_info">
+                        
+                    <div class="item">
+                        <p class="topic">店鋪名</p>
+                        <p class="content">九重 Kokonoe </p>
+                    </div>
+                    <div class="item">
+                        <p class="topic">地址</p>
+                        <p class="content">〒10671 台北市大安區和平東路2段134號</p class="content">
+                     
+                    </div>
+                    <div class="item">
+                        <p class="topic">TEL</p>
+                        <p class="content">(02)-9999-9999</p>
+                    </div>
+                    <div class="item">
+                        <p class="topic">營業時間</p>
+                        <p class="content">11:00～14:30</p>
+                        <p class="content">17:00～21:30</p>
+                    </div>
+                    <div class="item">
+                        <p class="topic">定休日</p>
+                        <p class="content">每週三、國定假日</p>
+                    </div>
+                    <div class="item">
+                        <p class="topic">交通</p>
+                        <p class="content">捷運科技大樓站徒步5分</p>
+                    </div>   
+                </div>  
+            </section>
+           <section>
+            <div class="contact">
+               
+                <div>
+                    <p class="title ">聯絡我們</p>
+                               
+                </div>
+                <div class="form">
+                    <div class="form-sec">
+                        <div class="field">
+                            <input id="surname" type="text" placeholder="姓氏">
+                            
+                            <i></i>
+                        </div>
+                        <div class="field">
+                            <input id="name" type="text" placeholder="名字">
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="form-sec">
+                        <div class="field">
+                            <input id="email" type="text" placeholder="電子信箱">
+                            <i></i>
+                        </div>
+                        <div class="field">
+                            <input id="tel" type="text" placeholder="電話">
+                            <i></i>
+                        </div>
+                    </div>
+
+
+                   
+                    <div  >
+                        <textarea placeholder="在這裡輸入您的訊息..." id="message"></textarea>
+                    </div>
+                   
+                </div>
+                <div class="form-bottom">
+                    <p class="thank">感謝您提供以上資訊!</p>
+                    <button id="btn" data-error="請填完資料" data-success='成功!'>提交</button>
+                </div>
+                
+           </div>
+                  
+               
+           </section>     
+            
+        </main>
+        <footer>
+            <div class="computer">
+            <p class="footertext1">〒10671台北市大安區和平東路2段134號 | (02)-9999-9999 | 每週三、國定假日公休</p>
+            <p class="footertext2">Copyright © KOKONOE All Rights Reserved</p>
+            </div>
+            <div class="ipad">
+            <p class="footertext1">〒10671台北市大安區和平東路2段134號<br><br>(02)-9999-9999<br><br>每週三、國定假日公休</p>
+            <p class="footertext2">Copyright © KOKONOE All Rights Reserved</p>
+            </div>
+            <div class="iphone">
+                <p class="footertext1">〒10671台北市大安區和平東路2段134號<br><br>(02)-9999-9999<br><br>每週三、國定假日公休</p>
+                <p class="footertext2">Copyright © KOKONOE All Rights Reserved</p>
+            </div>
+        </footer>
+       
+    </body>
+  
+   
+    <script>
+        // Your web app's Firebase configuration
+        var config = {                                      //我不會丟js，只好放這了
+            apiKey: "AIzaSyDSN9Q2hHaBTbVGJbu5ZnQ8o2NOEzEYVaw",
+    authDomain: "form-f62b7.firebaseapp.com",
+    databaseURL: "https://form-f62b7.firebaseio.com",
+    projectId: "form-f62b7",
+    storageBucket: "form-f62b7.appspot.com",
+    messagingSenderId: "348357551981"
+        };
+        firebase.initializeApp(config);
+
+        var db = firebase.firestore();
+
+      </script>
+      
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9fLDmuaaSV3FN2eqzdmIqFQVj18f9MuE&callback=initMap">
+</script>
+</html>
